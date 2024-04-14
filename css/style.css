@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+main {
+	width: 100%;min-height: 500px
+}
+.pt-30{
+	padding-top: 30px
+}
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+.text-
+text-do{
+	color: darkred
+}
+.vien{
+	border: 1px solid darkred; padding: 10px;border-radius: 10px;position: relative;overflow: hidden
+}
+.icon{
+	position: absolute; width: 80%; height: 45px;left: 10%; top: -15%;display: flex; justify-content: space-around;transition: all 1s
+}
+.icon a{
+	width: 45px; height: 45px;background-color:rgba(213,213,213,1.00);border-radius: 50%;display: flex;justify-content: center;align-items: center; text-decoration: none; color: darkred
+}
+.icon a:hover{
+	background-color: darkred; color: white
+}
+.vien:hover .icon{
+	top:40%
+}
+main{
+	width: 100%; min-height: 500px
+}
+#feature{
+	width: 100%;min-height: 600px;background-image: url("../images/bg2.png");background-repeat: no-repeat;background-size: cover;background-position: center center
+}
+.text-do{
+	color: darkred
+}
+.vien-trang{
+	border: 1px solid white;padding: 20px;text-align: center
+}
+.vien-trang a{
+	text-decoration: none; color: darkred
+}
+.vien-trang a:hover{
+	color: white
+}
+#contact{
+	width: 100%;min-height: 600px;background-image: url("../images/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center center
+}
+.shadow{
+	border: 1px solid rgba(209,209,209,1.00);min-height: 300px;box-shadow: 5px 5px 5px gray;padding: 40px
+}
+.form-control{
+	padding: 8px;width: 100%;margin-bottom: 10px
+}
+
+
+
+
